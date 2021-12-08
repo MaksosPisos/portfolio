@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contacts.css">
+</head>
+<body>
+    <div class="header">
+        <div class="wrapper">
+            <div class="header-wrapper">
+                <a href="./index.html">
+                    <img src="./img/logo.svg" alt="Miguel UI">
+                </a>
+                <div class="header-menu boton">
+                    <a href="./index.html">
+                        Home
+                    </a>
+                    <a href="./about.html">
+                        About Me
+                    </a>
+                    <a href="./projects.html">
+                        Projects
+                    </a>
+                    <a href="./contacts.html" class="active">
+                        Contacts
+                    </a>
+                </div>
+                <button class="header-button">
+                    <img class="icon-burger" src="./img/burger.svg" alt="Header Burger">
+                    <img class="icon-close" src="./img/close.svg" alt="Header Close">
+                </button>
+            </div>
+        </div>
+        <div class="separator"></div>
+        <script>
+            const burger = document.querySelector('.header-button')
+            const menu = document.querySelector('.header-menu')
+            burger.addEventListener('click', () => {
+                burger.classList.toggle('open')
+                menu.classList.toggle('open')
+            })
+        </script>
+    </div>
+    <div class="hablemos">
+        <div class="wrapper">
+            <div class="hablemos-wrapper">
+                <div class="hablemos-wrapper_title">
+                    <h1>
+                        ¡Hablemos!
+                    </h1>
+                    <div class="subtitle-1">
+                        Si estás interesado en mi trabajo o tienes alguna inquietud, no dudes en escribirme!
+                    </div>
+                </div>
+               
+                    <form class="hablemos_form">
+                        <div class="body-1">
+                            Tu nombre
+                        </div>
+                        <input type="tel" placeholder="Nombre" class=".body-1">
+
+                        <div class="body-1">
+                            Tu E-mail
+                        </div>
+                        <input type="email" placeholder="Ejemplo@hotmail.com">
+                        <div class="body-1">
+                            Tu mensaje
+                        </div>
+                        <textarea name="hey" id="" cols="30" rows="10" placeholder="Hey..." class=".body-1"></textarea>
+                        <a href="#" class="btn_link boton">Enviar</a>
+   
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="separator"></div>
+            <div class="footer-content">
+                <a href="#"><img src="./img/logo.svg" alt="Logo"></a>
+                <div class="footer-inicio">
+                    <a href="#" class="subtitle-1">Home</a>
+                    <a href="#" class="body-2">About Me</a>
+                    <a href="#" class="body-2">Projects</a>
+                </div>
+                <div class="footer-contacts">
+                    <a href="#" class="subtitle-1">Contacts</a>
+                    <a href="#" class="body-2">Correo</a>
+                    <a href="#" class="body-2">LinkedIn</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="subtitle-1">Social</a>
+                    <div class="footer-icon">
+                        <a href="#"><img src="./img/behance.svg" alt="behance"></a>
+                        <a href="#"><img src="./img/linkendl.svg" alt="linkendl"></a>
+                        <a href="#"><img src="./img/figma.svg" alt="figma"></a>
+                    </div>
+                </div>
+                
+
+            </div>
+            <div class="separator"></div>
+            <div class="caption developer">
+                © 2021 MaksosPisos
+            </div>
+
+        </div>
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,109 @@
+:root {
+    --gris: #A0A0A1;
+    --fondo: #171718;
+    --rellenos: #1C1E22;
+    --bordes: #26292D;
+    --acento: #85BFD1;
+    --blanco: #fff;
+    --primario: #5C62EC;
+    --hover: #3C40AE;
+}
+
+
+.guiadeestilos-wrapper {
+    padding:  2rem 1rem 4rem;
+
+}
+
+.guiadeestilos-title > h5 {
+    color: var(--gris);
+    padding-bottom: 1.5rem;
+}
+
+.guiadeestilos-title > h1 {
+    padding-bottom: 1.5rem;
+}
+.guiadeestilos-wrapper img {
+    border-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+    max-width: 100%;
+}
+
+.guiadeestilos-title > img {
+    padding-bottom: 4rem;
+}
+
+.guiadeestilos-subtitle > h2 {
+    padding-bottom: 1rem;
+}
+
+.guiadeestilos-subtitle > .body-1 + .body-1 {
+    padding-bottom: 2rem;
+}
+.guiadeestilos-wrapper h3 {
+    padding-bottom: 12px;
+}
+.guiadeestilos_body-1_padding{
+    padding-bottom: 1.5rem;
+}
+
+.guiadeestilos-tipografia > img {
+    padding-bottom: 32px;
+}
+.guiadeestilos-colors > img + img {
+    padding-bottom: 32px;
+}
+
+.guiadeestilos-colors > img {
+    padding-bottom: 24px;
+}
+
+.guiadeestilos-buttons > img {
+    padding-bottom: 4rem;
+}
+@media screen and (min-width: 768px){
+    .guiadeestilos-wrapper{
+        padding: 4rem 1rem 8rem;
+        }
+    .guiadeestilos-title > h1 {
+            padding-bottom: 4rem;
+        }
+
+    .guiadeestilos-wrapper img {
+        border-radius: 8px;
+    }
+
+    .guiadeestilos-title > img {
+        padding-bottom: 8rem;
+    }
+    .guiadeestilos-subtitle > .body-1 + .body-1 {
+        padding-bottom: 4rem;
+    }
+    .guiadeestilos-wrapper h3 {
+        padding-bottom: 18px;
+    }
+    .guiadeestilos-tipografia > img {
+        padding-bottom: 8rem;
+    }
+    .guiadeestilos-colors > img + img {
+        padding-bottom: 8rem;
+    }
+    .guiadeestilos-buttons > img {
+        padding-bottom: 8rem;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .guiadeestilos-wrapper{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+
+
+.guiadeestilos-tipografia_google-link {
+    color: var(--gris);
+    text-decoration: underline;
+}

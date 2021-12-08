@@ -1,0 +1,125 @@
+:root {
+    --gris: #A0A0A1;
+    --fondo: #171718;
+    --rellenos: #1C1E22;
+    --bordes: #26292D;
+    --acento: #85BFD1;
+    --blanco: #fff;
+    --primario: #5C62EC;
+    --hover: #3C40AE;
+}
+
+
+.hablemos-wrapper {
+    padding: 0 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hablemos-wrapper_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hablemos-wrapper_title > .subtitle-1 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.hablemos-wrapper_title > h1 {
+    padding-bottom: .5rem;
+}
+
+.hablemos {
+    padding: 2rem 0 4rem;
+}
+
+
+.hablemos_form {
+    background: var(--bordes);
+    border-radius: 8px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start;
+    align-content: flex-start; */
+   
+    
+    
+    width: 100%;
+    max-width: 447px;
+    
+}
+.hablemos_form input {
+    background: var(--rellenos);
+    border: 1px solid var(--gris);
+    border-radius: 8px;
+    padding: 1rem 0 1rem 20px;
+    margin-bottom: 1.5rem;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    margin-bottom: .5rem;
+}
+
+.hablemos_form textarea {
+    background: var(--rellenos);
+    border: 1px solid var(--gris);
+    border-radius: 8px;
+    padding: 1rem 0 1rem 20px;
+    margin-bottom: 1.5rem;
+    color: var(--blanco);
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    margin-bottom: .5rem;
+    padding: 1rem 20px;
+    margin-bottom: 1.5rem;
+}
+.hablemos_form-input_hey {
+    
+    display: flex;
+    align-items: flex-start;
+    flex-direction: flex-start;
+   
+}
+.btn_link {
+    width: 100%;
+    display: block;
+    background-color: var(--primario);
+    color: var(--blanco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+    border-radius:8px ;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .hablemos {
+        padding: 4rem 0 8rem;
+    }
+    .hablemos-wrapper_title > .subtitle-1 {
+        padding-bottom: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .hablemos-wrapper {
+        padding: 0;
+    }
+    
+}
+input {
+    color: var(--blanco);
+
+}
+
+.btn_link:hover, .btn_link:active, .btn_link:focus {
+    opacity: .75;
+}
