@@ -94,10 +94,10 @@
 
 .mishabilidades-wrapper {
     margin: 0 1rem 4rem;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    
     row-gap: 1.5rem;
-    align-items: center;
+    
 }
 
 .mishabilidades-wrapper_item {
@@ -120,18 +120,13 @@
         text-align: center;
         margin-bottom: 3rem;
     }
+
     .mishabilidades-wrapper {
-        flex-direction: row;
-       column-gap: 1.5rem;
-        flex-wrap: wrap;
-        align-items: stretch;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1.5rem;
         margin-bottom: 8rem;
     }
-    .mishabilidades-wrapper_item {
-        flex-basis: 45%;
-        flex-grow: 1;
-    }
-
+ 
 
 
 }
@@ -143,11 +138,10 @@
         margin-bottom: 3.75rem;
     }
 
-    .mishabilidades-wrapper_item {
-        flex-basis: 30%;
-        flex-grow: 1;
-     
-        
+    .mishabilidades-wrapper {
+        grid-template-columns: repeat(3, 1fr);
+       
     }
+ 
 
 }
